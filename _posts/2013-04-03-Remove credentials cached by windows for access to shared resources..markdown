@@ -1,9 +1,10 @@
 ---
-layout: post
 title:  "Remove credentials cached by windows for access to shared resources."
 date:   2013-04-03 15:25:31 +0100
-categories: Windows Credentials
-comments: true
+categories:
+  - Windows
+tags:
+  - Credentials
 ---
 
 Today I was connected to the NAS that I have at home for the first time since my new installation of Windows 8 so I have access to it through the file explorer

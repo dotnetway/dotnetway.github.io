@@ -1,9 +1,10 @@
 ---
-layout: post
 title:  "Scalar functions in Sql Server."
 date:   2018-01-20 12:15:31 +0100
-categories: T-SQL
-comments: true
+categories:
+  - SQL
+tags:
+  - T-SQL
 ---
 
 Today I wanted to talk about scalar functions in Sql Server and a very interesting utility that I discovered recently.

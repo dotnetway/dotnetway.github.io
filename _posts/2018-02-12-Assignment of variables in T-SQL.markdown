@@ -1,9 +1,10 @@
 ---
-layout: post
 title:  "Assignment of variables in T-SQL."
 date:   2018-02-12 12:15:31 +0100
-categories: T-SQL
-comments: true
+categories:
+  - SQL
+tags:
+  - T-SQL
 ---
 
 Last week I was asked by a partner how to initialize a variable with the result of a query in T-SQL.

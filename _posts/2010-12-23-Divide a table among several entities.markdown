@@ -1,9 +1,10 @@
 ---
-layout: post
 title:  "Entity Framework: Divide a table among several entities."
 date:   2010-12-23 12:15:31 +0100
-categories: Entity Framework, .NET
-comments: false
+categories:
+  - .NET
+tags:
+  - Entity Framework
 ---
 
 If we have a table with several frequently used fields but others used only very rarely, we can divide the table among several entities to avoid loading those fields in each query.

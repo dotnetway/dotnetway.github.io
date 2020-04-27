@@ -2,7 +2,7 @@
 title: "Implementing strategy pattern with autofac."
 date: 2019-11-03 18:49:31 +0100
 categories:
-  - blog
+  - .NET
 tags:
   - c#
   - design patterns
@@ -17,7 +17,7 @@ In the end we would call the dictionary by accessing the key to the type of stra
 
 It would be something like this:
 
-```c#
+{% highlight c# %}
 private IDictionary<TranslationType, ITranslationStrategy> _translationStrategies;
 
 public Application(IIndex<TranslationType, ITranslationStrategy> translationStrategies)
@@ -34,7 +34,7 @@ public void Run()
     Console.WriteLine(_translationStrategies[TranslationType.French].Translate());
     Console.WriteLine(_translationStrategies[TranslationType.English].Translate());
 }
-```
+{% endhighlight %}
 
 As we can see, we have to create the dictionary using new to create and instance of each kind of strategy that we want to use, which is a bad practice since we tighly coupled code.
 

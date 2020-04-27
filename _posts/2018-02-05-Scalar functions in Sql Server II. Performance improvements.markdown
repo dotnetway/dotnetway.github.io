@@ -1,9 +1,10 @@
 ---
-layout: post
 title:  "Scalar functions in Sql Server II. Performance improvements."
 date:   2018-02-05 12:15:31 +0100
-categories: T-SQL 
-comments: true
+categories:
+  - SQL
+tags:
+  - T-SQL 
 ---
 
 Today I am writing to you as I promised to see the solutions to the performance problems involved in using the scalar functions in more complex queries.

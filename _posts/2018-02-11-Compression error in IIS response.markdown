@@ -1,9 +1,10 @@
 ---
-layout: post
 title:  "Compression error in IIS response."
 date:   2018-02-11 15:25:31 +0100
-categories: Orchad, IIS
-comments: false
+categories:
+  - WEB
+tags:
+  - Orchad
 ---
 
 I've been seeing the following error for a few days in the answers given to me by the site I have published with Orchad.

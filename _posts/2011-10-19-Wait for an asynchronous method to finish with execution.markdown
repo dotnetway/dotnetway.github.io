@@ -1,9 +1,11 @@
 ---
-layout: post
 title:  "Wait for an asynchronous method to finish execution."
 date:   2011-10-19 18:41:31 +0100
-categories: c#, TLP
-comments: false
+categories:
+  - .NET
+tags:
+  - c#
+  - TLP
 ---
 
 I have had the case of having to call a method that runs asynchronously but I need to wait for it to finish before chasing because it needed a value that was established in the latter method. A colleague told me that I could use TPL (Task Parallel Library) to simplify things and specifically with ContinueWith of the Task class. An example would be the following:
