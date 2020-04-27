@@ -1,10 +1,13 @@
 ---
-layout: post
-title:  "Implementing strategy pattern with autofac."
-date:   2019-11-03 18:49:31 +0100
-categories: Autofac Strategy DesignPatterns
-comments: true
+title: "Implementing strategy pattern with autofac."
+date: 2019-11-03 18:49:31 +0100
+categories:
+  - blog
+tags:
+  - c#
+  - design patterns
 ---
+
 
 When we implement the parton strategy we usually have a dictionary with an enumerated type that corresponds to the types of strategy to be used as a key and as a value the types that implement the strategy interface that will be implemented by all types of strategy.
 
@@ -14,8 +17,7 @@ In the end we would call the dictionary by accessing the key to the type of stra
 
 It would be something like this:
 
-{% highlight c# %}
-
+```c#
 private IDictionary<TranslationType, ITranslationStrategy> _translationStrategies;
 
 public Application(IIndex<TranslationType, ITranslationStrategy> translationStrategies)
@@ -32,7 +34,7 @@ public void Run()
     Console.WriteLine(_translationStrategies[TranslationType.French].Translate());
     Console.WriteLine(_translationStrategies[TranslationType.English].Translate());
 }
-{% endhighlight %}
+```
 
 As we can see, we have to create the dictionary using new to create and instance of each kind of strategy that we want to use, which is a bad practice since we tighly coupled code.
 
