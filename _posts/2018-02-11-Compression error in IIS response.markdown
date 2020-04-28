@@ -9,7 +9,7 @@ tags:
 
 I've been seeing the following error for a few days in the answers given to me by the site I have published with Orchad.
 
-![Compression error in IIS response](/img/Error_compresion_IIS.jpeg)
+![Compression error in IIS response](/assets/images/Error_compresion_IIS.jpeg)
 
 The error is completely random in terms of frequency and in the pages where it is given, so it has been a bit difficult to find out what really happened. As you can see it seems that the response of the IIS is returning a series of random characters.
 
