@@ -4,12 +4,13 @@ date: 2019-11-03 18:49:31 +0100
 categories:
   - .NET
 tags:
-  - c#
-  - design patterns
+  - C#
+  - Design Patterns
+  - Autofac
 ---
 
 
-When we implement the parton strategy we usually have a dictionary with an enumerated type that corresponds to the types of strategy to be used as a key and as a value the types that implement the strategy interface that will be implemented by all types of strategy.
+When we implement the patron strategy we usually have a dictionary with an enumerated type that corresponds to the types of strategy to be used as a key and as a value the types that implement the strategy interface that will be implemented by all types of strategy.
 
 In the constructor we create the dictionary and add the strategy types with their corresponding key of the type listed.
 
@@ -40,7 +41,7 @@ As we can see, we have to create the dictionary using new to create and instance
 
 To solve it we can use dependency injection, specifically using autofac we can use Keyed Services solving with an index.
 
-First we would register our types of strategy in our application compositon root:
+First we would register our types of strategy in our application composition root:
 
 {% highlight c# %}
 var builder = new ContainerBuilder();
