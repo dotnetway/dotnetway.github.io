@@ -25,7 +25,7 @@ public Application(IIndex<TranslationType, ITranslationStrategy> translationStra
     _translationStrategies = new Dictionary<TranslationType, ITranslationStrategy>();
     _translationStrategies.Add(TranslationType.Spanish, new SpanishTranslationStrategy());
     _translationStrategies.Add(TranslationType.French, new FrenchTranslationStrategy());
-    _translationStrategies.Add(TranslationType.English, newEnglishTranslationStrategy());
+    _translationStrategies.Add(TranslationType.English, new EnglishTranslationStrategy());
 }
 
 public void Run()
