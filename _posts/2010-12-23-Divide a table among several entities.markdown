@@ -5,6 +5,7 @@ categories:
   - .NET
 tags:
   - Entity Framework
+  - Edmx
 ---
 
 If we have a table with several frequently used fields but others used only very rarely, we can divide the table among several entities to avoid loading those fields in each query.

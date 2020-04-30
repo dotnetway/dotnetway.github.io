@@ -7,6 +7,7 @@ tags:
   - C#
   - Design Patterns
   - Autofac
+  - Strategy pattern
 ---
 
 

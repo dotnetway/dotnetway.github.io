@@ -5,6 +5,9 @@ categories:
   - Windows
 tags:
   - Credentials
+  - Network
+  - Shared resources
+  - IT
 ---
 
 Today I was connected to the NAS that I have at home for the first time since my new installation of Windows 8 so I have access to it through the file explorer
