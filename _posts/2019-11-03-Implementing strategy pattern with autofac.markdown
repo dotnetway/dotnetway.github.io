@@ -10,7 +10,7 @@ tags:
 ---
 
 
-When we implement the patron strategy we usually have a dictionary with an enumerated type that corresponds to the types of strategy to be used as a key and as a value the types that implement the strategy interface that will be implemented by all types of strategy.
+When we implement the strategy pattern we usually have a dictionary with an enumerated type that corresponds to the types of strategy to be used as a key and as a value the types that implement the strategy interface that will be implemented by all types of strategy.
 
 In the constructor we create the dictionary and add the strategy types with their corresponding key of the type listed.
 
