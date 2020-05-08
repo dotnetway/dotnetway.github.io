@@ -39,22 +39,7 @@
 
     {% include scripts.html %}
 
-    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-    <script>
-    window.cookieconsent.initialise({
-      "palette": {
-        "popup": {
-          "background": "#383b75"
-        },
-        "button": {
-          "background": "#f1d600"
-        }
-      },
-      "theme": "edgeless",
-      "content": {
-        "message": "We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them."
-      }
-    });
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" async></script> 
+    <script src="{{ '/assets/js/cookieconsent/consent.js' | relative_url }}" async></script>
   </body>
 </html>
