@@ -65,8 +65,8 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Jose Manuel Gil"
-  avatar : "/assets/images/bio-photo.jpg"
+  #name   : "Jose Manuel Gil"
+  #avatar : "/assets/images/bio-photo.jpg"
   bio    : ".NET Senior developer and enthusiastic cyclist."
   links:
     - label: "GitHub"
@@ -95,7 +95,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -106,7 +106,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
 
 category_archive:
   type: liquid
